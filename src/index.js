@@ -2,7 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './components/App';
 import Login from './components/Auth/Login';
-import Register from './components/Auth/Register';
+import Register from './components/Auth/Register'; 
+import 'semantic-ui-css/semantic.min.css'
+import './components/App.css'
+
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
